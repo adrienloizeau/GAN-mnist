@@ -15,7 +15,7 @@ The discriminator network follows this architecture:
 - **Convolutional layers**: A series of convolutional layers are used to extract features from the input image. These layers are interleaved with LeakyReLU activation.
 - **Fully connected layers:** Fully connected layers are used to classify the input image as real or fake. The final layer in the discriminator uses a sigmoid activation function to produce a probability of the image being real.
 
-Note: Here we will only use 4 Convolution layers not 6.
+Note: Here we will only use 4 Convolution layers not 5.
 
 <img src="images/DCGAN architecture.png" alt="Alt text" title="DCGAN architecture">
 
